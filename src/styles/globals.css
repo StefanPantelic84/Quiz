@@ -24,9 +24,28 @@
   transition: all 0.4s ease;
 }
 
+
 .slick-center .slider-container {
       min-height: 250px;
       display: block;
       opacity: 1;
       pointer-events: all;
+}
+.slick-center .slider-container.active {
+    min-height: 250px;
+    display: block;
+    opacity: 1;
+    pointer-events: none;
+}
+
+
+.buttonRed {
+    background-color: red;
+    border-radius: 50%;
+    width:60px;
+}
+.buttonBlue {
+    background-color: blue;
+    border-radius: 50%;
+    width:60px;
 }
